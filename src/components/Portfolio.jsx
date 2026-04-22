@@ -42,7 +42,7 @@ const ScrollRevealSection = ({ children, direction = "left", className = "" }) =
 };
 
 const Portfolio = ({ isDark, toggleTheme }) => {
-  const { profile, skills, projects, contactAPIKey } = portfolioData;
+  const { profile, skills, projects } = portfolioData;
   const { scrollY } = useScroll();
 
   // Parallax effects
@@ -201,7 +201,7 @@ const Portfolio = ({ isDark, toggleTheme }) => {
         {/* Contact Section (Odd: slide right to center) */}
         <ScrollRevealSection direction="right" className="mb-0">
           <div id="contact">
-            <ContactSection contactAPIKey={contactAPIKey} />
+            <ContactSection contactAPIKey={import.meta.env.VITE_CONTACT_API_KEY} />
           </div>
         </ScrollRevealSection>
 
