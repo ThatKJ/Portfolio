@@ -1,0 +1,52 @@
+{
+  "isMaintenanceMode": false,
+  "contactAPIKey": "https://formspree.io/f/mvzdwpvd",
+  "profile": {
+    "name": "Kirtan Joshi",
+    "email": "kirtan12007@gmail.com",
+    "title": "Software Engineer & UI Developer",
+    "bio": "18-year-old student developer learning computer science through coding, projects, and continuous improvement.",
+    "socials": [
+      {
+        "platform": "GitHub",
+        "url": "https://github.com/ThatKJ",
+        "icon": "github"
+      },
+      {
+        "platform": "LinkedIn",
+        "url": "https://www.linkedin.com/in/kirtan-joshi2412/",
+        "icon": "linkedin"
+      }
+    ]
+  },
+  "skills": [
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "Framer Motion",
+    "Node.js",
+    "Python"
+  ],
+  "projects": [
+    {
+      "title": "Airline Reservation System",
+      "description": "A terminal-based Airline Reservation System built in Python using MySQL for persistent storage. The system supports both users and admins, allowing flight booking, seat selection, cancellations, reporting, and more!",
+      "techStack": [
+        "Python",
+        "MySQL"
+      ],
+      "link": "https://github.com/ThatKJ/Airline-Reservation-System"
+    },
+    {
+      "title": "Nebula E-Commerce",
+      "description": "Headless storefront utilizing a custom animation engine for fluid transitions and 3D product previews.",
+      "techStack": [
+        "Next.js",
+        "Three.js",
+        "GraphQL",
+        "Stripe"
+      ],
+      "link": "#"
+    }
+  ]
+}

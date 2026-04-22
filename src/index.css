@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --bg-main: #F9FAFB;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f3f4f6;
+  --accent: #3B82F6;
+  --text-main: #0A0A0A;
+  --text-muted: #374151;
+}
+
+.dark {
+  --bg-main: #121212;
+  --bg-card: #1c1c1c;
+  --bg-card-hover: #262626;
+  --accent: #3B82F6;
+  --text-main: #f3f4f6;
+  --text-muted: #D1D5DB;
+}
+body {
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  font-size: 17px;
+}
+
+body::selection {
+  background-color: var(--accent);
+  color: white;
+}
+
+/* Hide scrollbar for a cleaner look */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--bg-card-hover);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #4b5563;
+}
